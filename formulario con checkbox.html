@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario con Checkbox</title>
+    <style>
+        body { font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; background-color: #f0f2f5; display: flex; justify-content: center; align-items: center; min-height: 100vh; margin: 0; }
+        .card { background: #ffffff; padding: 30px; border-radius: 12px; box-shadow: 0 4px 15px rgba(0,0,0,0.1); width: 100%; max-width: 400px; }
+        h2 { color: #1a73e8; margin-top: 0; text-align: center; }
+        label { font-weight: 600; color: #444; display: block; margin-top: 10px; margin-bottom: 5px; }
+        input[type="text"] { width: 100%; padding: 10px; border: 1px solid #ccc; border-radius: 6px; box-sizing: border-box; }
+        .checkbox-group { margin-top: 10px; background: #f8f9fa; padding: 15px; border-radius: 8px; border: 1px solid #e0e0e0; }
+        .checkbox-item { margin-bottom: 8px; display: flex; align-items: center; gap: 8px; font-weight: 500; color: #333; }
+    </style>
+</head>
+<body>
+
+<!--
+    Nombre: Ismael Arellano Delgado
+    Grado: 5I
+    Número de control: 24308051280484
+-->
+
+<div class="card">
+    <h2>Formularios con checkbox</h2>
+    <form action="" method="post">
+        <label>Ingresa tu nombre:</label>
+        <input type="text" name="nombre">
+        
+        <label>Selecciona los lenguajes que conozcas:</label>
+        <div class="checkbox-group">
+            <div class="checkbox-item"><input type="checkbox" name="Java"> Java</div>
+            <div class="checkbox-item"><input type="checkbox" name="Python"> Python</div>
+            <div class="checkbox-item"><input type="checkbox" name="C#"> C#</div>
+            <div class="checkbox-item"><input type="checkbox" name="Flutter"> Flutter</div>
+        </div>
+    </form>
+</div>
+
+</body>
+</html>

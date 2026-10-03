@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario para Contraseñas</title>
+    <style>
+        body { font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; background-color: #f0f2f5; display: flex; justify-content: center; align-items: center; min-height: 100vh; margin: 0; }
+        .card { background: #ffffff; padding: 30px; border-radius: 12px; box-shadow: 0 4px 15px rgba(0,0,0,0.1); width: 100%; max-width: 400px; }
+        h2 { color: #1a73e8; margin-top: 0; text-align: center; }
+        label { font-weight: 600; color: #444; display: block; margin-top: 10px; margin-bottom: 5px; }
+        input[type="text"], input[type="password"] { width: 100%; padding: 10px; border: 1px solid #ccc; border-radius: 6px; box-sizing: border-box; }
+        .btn-group { display: flex; gap: 10px; margin-top: 20px; }
+        input[type="submit"], input[type="reset"] { flex: 1; border: none; padding: 12px; border-radius: 6px; cursor: pointer; font-weight: bold; transition: 0.3s; }
+        input[type="submit"] { background-color: #1a73e8; color: white; }
+        input[type="submit"]:hover { background-color: #1557b0; }
+        input[type="reset"] { background-color: #ea4335; color: white; }
+        input[type="reset"]:hover { background-color: #c5221f; }
+    </style>
+</head>
+<body>
+
+<!--
+    Nombre: Ismael Arellano delgado
+    Grado: 5I
+    Número de control: 24308051280484
+-->
+
+<div class="card">
+    <h2>Formulario para contraseñas</h2>
+    <form action="" method="post">
+        <label>Ingresa tu usuario:</label>
+        <input type="text" name="usuario">
+        
+        <label>Ingresa tu contraseña:</label>
+        <input type="password" name="pass">
+        
+        <div class="btn-group">
+            <input type="submit" value="Enviar">
+            <input type="reset" value="Borrar">
+        </div>
+    </form>
+</div>
+
+</body>
+</html>
